@@ -15,4 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+    <properties>
+        <!-- Optional URL to server. Default value is http://localhost:9000 -->
+        <sonar.host.url>
+            http://demo-sonar.dbg-devops.com:80
+        </sonar.host.url>
+    </properties>
 </project>
